@@ -41,8 +41,6 @@ public class HowSum {
                     possibleArray = new int[array.length + 1];
                     System.arraycopy(array, 0, possibleArray, 0, array.length);
                     possibleArray[possibleArray.length - 1] = number;
-
-
                 }
                 memo.put(remainder, possibleArray);
             }
